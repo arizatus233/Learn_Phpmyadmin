@@ -1,0 +1,54 @@
+CREATE TABLE `sekolah`.`sekolah` (`id_sekolah` INT(5) NULL DEFAULT NULL , `nama_sekolah` VARCHAR(200) NULL DEFAULT NULL , `alamat_sekolah` VARCHAR(255) NULL DEFAULT NULL , PRIMARY KEY (`id_sekolah`(255)), FULLTEXT (`nama_sekolah`(200)), FULLTEXT (`alamat_sekolah`(255))) ENGINE = InnoDB;
+CREATE TABLE `sekolah`.`sekolah` (`Id_sekolah` INT(20) NOT NULL , `nama_sekolah` VARCHAR(50) NOT NULL , `alamat_sekolah` VARCHAR(40) NOT NULL , PRIMARY KEY (`Id_sekolah`)) ENGINE = InnoDB;
+CREATE TABLE `sekolah`.`siswa` (`umur` INT(5) NOT NULL , `id` INT NOT NULL ) ENGINE = InnoDB;
+ALTER TABLE `siswa` DROP `umur`;
+CREATE TABLE `sekolah`.`pegawai` (`id_pegawai` INT(15) NOT NULL , `nama_pegawai` VARCHAR(70) NOT NULL , `nomor_telepon` INT(25) NOT NULL , `alamat` VARCHAR(100) NOT NULL , PRIMARY KEY (`id_pegawai`)) ENGINE = InnoDB;
+SELECT * FROM `siswa`
+CREATE TABLE `sekolah`.`siswa` (`id_siswa` INT(5) NOT NULL , `umur` INT(10) NOT NULL , `nama_siswa` VARCHAR(80) NOT NULL , `alamat` VARCHAR(100) NOT NULL , PRIMARY KEY (`id_siswa`)) ENGINE = InnoDB;
+CREATE TABLE `sekolah`.`kepanitiaan` (`id_kepanitiaan` INT(5) NOT NULL , `nama_kepanitiaan` VARCHAR(200) NOT NULL , PRIMARY KEY (`id_kepanitiaan`)) ENGINE = InnoDB;
+SELECT * FROM `kepanitiaan`
+SELECT * FROM `kepanitiaan`
+CREATE TABLE `sekolah`.`acara` (`id_acara` INT(5) NOT NULL , `nama_acara` VARCHAR(50) NOT NULL , PRIMARY KEY (`id_acara`)) ENGINE = InnoDB;
+CREATE TABLE `sekolah`.`tim` (`id_tim` INT(10) NOT NULL , `nama_tim` VARCHAR(70) NOT NULL , PRIMARY KEY (`id_tim`)) ENGINE = InnoDB;
+CREATE TABLE `sekolah`.`turnamen` (`id_turnamen` INT(20) NOT NULL , `nama_turnamen` INT(200) NOT NULL , PRIMARY KEY (`id_turnamen`)) ENGINE = InnoDB;
+SELECT * FROM `acara`
+SELECT * FROM `acara`
+SELECT * FROM `acara`
+SELECT * FROM `kepanitiaan`
+SELECT * FROM `pegawai`
+SELECT * FROM `sekolah`
+SELECT * FROM `siswa`
+SELECT * FROM `tim`
+SELECT * FROM `tim`
+SELECT * FROM `turnamen`
+SELECT * FROM `acara`
+SELECT * FROM `turnamen`
+SELECT * FROM `acara`
+​
+ascendingdescendingOrder:Debug SQLExecution orderTime takenOrder by:Group queries
+Some error occurred while getting SQL debug info.
+BookmarksRefreshAdd
+No bookmarks
+Add bookmark
+Label: 
+ Target database: 
+ Share this bookmark 
+​
+OptionsSet default
+Always expand query messages
+Show query history at start
+Show current browsing query
+ Execute queries on Enter and insert new line with Shift+Enter. To make this permanent, view settings.
+Switch to dark theme
+Filters
+Containing the word:
+Table Ascending	Action	Rows 	Type	Collation	Size	Overhead
+	acara	 	Browse Browse	Structure Structure	Search Search	Insert Insert	Empty Empty	Drop Drop	0	InnoDB	utf8mb4_general_ci	16.0 KiB	-
+	kepanitiaan	 	Browse Browse	Structure Structure	Search Search	Insert Insert	Empty Empty	Drop Drop	0	InnoDB	utf8mb4_general_ci	16.0 KiB	-
+	pegawai	 	Browse Browse	Structure Structure	Search Search	Insert Insert	Empty Empty	Drop Drop	0	InnoDB	utf8mb4_general_ci	16.0 KiB	-
+	sekolah	 	Browse Browse	Structure Structure	Search Search	Insert Insert	Empty Empty	Drop Drop	0	InnoDB	utf8mb4_general_ci	16.0 KiB	-
+	siswa	 	Browse Browse	Structure Structure	Search Search	Insert Insert	Empty Empty	Drop Drop	0	InnoDB	utf8mb4_general_ci	16.0 KiB	-
+	tim	 	Browse Browse	Structure Structure	Search Search	Insert Insert	Empty Empty	Drop Drop	0	InnoDB	utf8mb4_general_ci	16.0 KiB	-
+	turnamen	 	Browse Browse	Structure Structure	Search Search	Insert Insert	Empty Empty	Drop Drop	0	InnoDB	utf8mb4_general_ci	16.0 KiB	-
+7 tables	Sum	0	InnoDB	utf8mb4_general_ci	112.0 KiB	0 B
+With selected:  Check all 
