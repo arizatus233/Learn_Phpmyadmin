@@ -1,6 +1,6 @@
 Soal 1
 
-![SOAL 1](https://github.com/arizatus233/Learn_Phpmyadmin/assets/160198966/f9672474-59ea-401c-a55e-a8f7b337b191)
+![tugas 1](https://github.com/arizatus233/Learn_Phpmyadmin/assets/160198966/8160e3ea-9e11-44db-9d15-ca09c73efa6c)
 
 Soal 2
 
@@ -23,6 +23,8 @@ Soal 6
 ![SOAL 6](https://github.com/arizatus233/Learn_Phpmyadmin/assets/160198966/0bb4b660-56fb-4a4f-9e5c-c928075340b5)
 
 Soal 7
+
+![tugas 2](https://github.com/arizatus233/Learn_Phpmyadmin/assets/160198966/d1ec694a-a54d-426e-9087-168b164ca040)
 
 ![SOAL 7](https://github.com/arizatus233/Learn_Phpmyadmin/assets/160198966/bc5b4845-862c-4608-ac98-bb652b175137)
 
